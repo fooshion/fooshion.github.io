@@ -1,0 +1,1 @@
+var dinner1 = "a salad";
