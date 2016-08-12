@@ -6,14 +6,9 @@
 		line-height: 1.65;
 		background-color:#7beb5b;
 		z-index:7;
-		font-size:40px;
+		font-size:30px;
 	}
 	
-@media screen and (max-width: 780px){
-	.navbar{
-		font-size:22px;
-	}
-}
 
 .navbar ul {
     list-style-type: none;
