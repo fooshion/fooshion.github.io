@@ -64,8 +64,10 @@ box-shadow:         0px 0px 30px 0px rgba(0, 255, 0, 0.67);
 	}
 	.cap{
 		width:95%;
+		font-size:28px;
 	}
 	.header{
+		font-size:70px;
 		width:95%;
 	}
 	.popup{
@@ -109,12 +111,14 @@ box-shadow:         0px 0px 30px 0px rgba(0, 255, 0, 0.67);
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 70%;
+  width: 80%;
   position: relative;
   transition: all 5s ease-in-out;
+  font-size:26px;
 }
 
 .popup h2 {
+	font-size:40px;
   margin-top: 0;
   color: #333;
   font-family: Tahoma, Arial, sans-serif;

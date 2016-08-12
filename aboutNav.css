@@ -6,8 +6,14 @@
 		line-height: 1.65;
 		background-color:#7beb5b;
 		z-index:7;
-		font-size:30px;
+		font-size:40px;
 	}
+	
+@media (max-width: 1080px){
+	.navbar{
+		font-size:24px;
+	}
+}
 
 .navbar ul {
     list-style-type: none;
