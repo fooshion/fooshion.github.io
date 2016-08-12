@@ -7,10 +7,7 @@ body, input, select, textarea {
 		line-height: 1.65;
 	}
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px)
-and (orientation : portrait) {
+@media (max-width:480px) {
 	.navbar{
 		font-size: 21px;
 	}
