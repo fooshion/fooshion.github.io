@@ -66,9 +66,3 @@
     margin-right: 10px;
     border-bottom:1px solid #CFCFCF;
 }
-
-@media (max-width: 780px){
-	.navbar{
-		font-size: 20px;
-	}
-}
