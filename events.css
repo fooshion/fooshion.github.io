@@ -73,11 +73,11 @@ box-shadow:         0px 0px 30px 0px rgba(0, 255, 0, 0.67);
 	.popup{
 		width: 95%;
 	}
-	.navbar img{
+	.navbar{
 		font-size:50px;
 	}
 	.navbar img{
-		height:30px;
+		height:20px;
 	}
 }
 
