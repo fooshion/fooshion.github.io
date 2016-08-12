@@ -93,9 +93,7 @@
 }
 
 @media screen and (max-width: 480px) {
-	.form{
-		display:none;
-	}
+
 	.login-page{
 		margin-top:0px;
 	}
