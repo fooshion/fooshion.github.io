@@ -9,9 +9,9 @@
 		font-size:40px;
 	}
 	
-@media (max-width: 480px){
+@media screen and (max-width: 780px){
 	.navbar{
-		font-size:24px;
+		font-size:22px;
 	}
 }
 

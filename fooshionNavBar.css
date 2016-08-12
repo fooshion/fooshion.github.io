@@ -3,12 +3,6 @@ body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.65);
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 	}
-
-@media (max-width: 480px){
-	.navbar{
-		font-size:24px;
-	}
-}
 	
 ul {
     list-style-type: none;
