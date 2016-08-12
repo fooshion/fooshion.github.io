@@ -20,7 +20,7 @@ li {
 
 @media screen and (max-width: 780px){
 	ul{
-		font-size:20px;
+		font-size:18px;
 	}
 }
 li a, .dropbtn {
