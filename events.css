@@ -69,6 +69,10 @@ box-shadow:         0px 0px 30px 0px rgba(0, 255, 0, 0.67);
 	li{
 		font-size:50px;
 	}
+	
+	img{
+		height:18px;
+	}
 	.header{
 		font-size:70px;
 		width:95%;
