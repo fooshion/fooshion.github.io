@@ -7,6 +7,12 @@ body, input, select, textarea {
 		line-height: 1.65;
 	}
 
+@media screen and (max-width: 480px) {
+	.navbar{
+		font-size: 21px;
+	}
+}	
+	
 ul {
     list-style-type: none;
     margin: 0;

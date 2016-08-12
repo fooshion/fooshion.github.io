@@ -66,3 +66,9 @@
     margin-right: 10px;
     border-bottom:1px solid #CFCFCF;
 }
+
+@media screen and (max-width: 480px) {
+	.navbar{
+		font-size: 21px;
+	}
+}
