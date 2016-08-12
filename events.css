@@ -69,8 +69,8 @@ box-shadow:         0px 0px 30px 0px rgba(0, 255, 0, 0.67);
 	li{
 		font-size:50px;
 	}
-	.up{
-		height:20px;
+	.dropdown{
+		width:50px;
 	}
 	.header{
 		font-size:70px;
