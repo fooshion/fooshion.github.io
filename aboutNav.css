@@ -9,11 +9,6 @@
 		font-size:40px;
 	}
 	
-@media screen and (max-width: 780px){
-	.navbar{
-		font-size:22px;
-	}
-}
 
 .navbar ul {
     list-style-type: none;

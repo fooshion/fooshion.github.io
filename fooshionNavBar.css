@@ -17,6 +17,12 @@ li {
     float: left;
 }
 
+
+@media screen and (max-width: 780px){
+	li{
+		font-size:22px;
+	}
+}
 li a, .dropbtn {
     display: inline-block;
     color: white;
