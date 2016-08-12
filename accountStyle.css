@@ -92,12 +92,6 @@
   color: #EF3B3A;
 }
 
-@media screen and (max-width: 480px) {
-
-	.login-page{
-		margin-top:0px;
-	}
-}
 
 body {
   background: #fff; /* fallback for old browsers */
