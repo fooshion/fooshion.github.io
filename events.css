@@ -5,6 +5,9 @@ html, body{
 	font-family:'ABeeZee';
 }
 
+a{
+    width: 200px;
+}
 
 .header{
 	background-color:#fff;
