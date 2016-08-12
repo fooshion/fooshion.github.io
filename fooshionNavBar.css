@@ -7,9 +7,9 @@ body, input, select, textarea {
 		line-height: 1.65;
 	}
 
-@media screen and (max-width: 480px) {
+@media (max-width: 780px) {
 	.navbar{
-		font-size: 30px;
+		font-size: 24px;
 		
 	}
 }	
@@ -20,7 +20,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #7beb5b;
-	font-size:22px;
+	font-size:30px;
 }
 
 li {
