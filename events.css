@@ -79,8 +79,11 @@ box-shadow:         0px 0px 30px 0px rgba(0, 255, 0, 0.67);
 	.navbar{
 		font-size:50px;
 	}
+	.navbar img{
+		height:50px;
+	}
 	a{
-		width:400px;
+		width:300px;
 	}
 }
 
