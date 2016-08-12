@@ -7,9 +7,9 @@ body, input, select, textarea {
 		line-height: 1.65;
 	}
 
-@media only screen(max-width:480px) {
+@media only screen(max-width:780px) {
 	.navbar{
-		font-size: 30px;
+		font-size: 24px;
 	}
 }	
 	
