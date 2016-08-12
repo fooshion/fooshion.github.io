@@ -92,6 +92,15 @@
   color: #EF3B3A;
 }
 
+@media screen and (max-width: 980px) {
+	.inner{
+		display:none;
+	}
+	.login-page{
+		margin-top:0px;
+	}
+}
+
 body {
   background: #fff; /* fallback for old browsers */
   font-family: "Roboto", sans-serif;
