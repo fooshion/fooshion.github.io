@@ -67,7 +67,7 @@
     border-bottom:1px solid #CFCFCF;
 }
 
-@media (max-width:780px) {
+@media screen and (max-width: 480px) {
 	.navbar{
 		font-size: 30px;
 	}
