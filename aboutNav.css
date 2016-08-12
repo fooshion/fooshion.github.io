@@ -67,7 +67,10 @@
     border-bottom:1px solid #CFCFCF;
 }
 
-@media screen and (max-width: 480px) {
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)
+and (orientation : portrait) {
 	.navbar{
 		font-size: 21px;
 	}
