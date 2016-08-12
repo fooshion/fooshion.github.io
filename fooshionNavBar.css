@@ -9,7 +9,7 @@ body, input, select, textarea {
 
 @media (max-width:480px) {
 	.navbar{
-		font-size: 21px;
+		font-size: 30px;
 	}
 }	
 	
