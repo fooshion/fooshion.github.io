@@ -130,7 +130,7 @@ box-shadow:         0px 0px 30px 0px rgba(0, 255, 0, 0.67);
   overflow: auto;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 780px){
   .popup{
     width: 80%;
   }
