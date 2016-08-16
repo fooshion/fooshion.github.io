@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Upload your own picture!</title>
+    <title>Upload | Fooshion</title>
+	<link rel="shortcut icon" href="https://s10.postimg.org/pr0f26o5l/pine.gif">
+
 	    <script>
 		function previewFile(){
 			var preview = document.querySelector('img'); //selects the query named img
@@ -10,14 +12,12 @@
 			reader.onloadend = function () {
 				preview.src = reader.result;
 		}
-
 			if (file) {
 				reader.readAsDataURL(file); //reads the data as a URL
 			} else {
 				preview.src = "";
 			}
 		}
-
   </script>
   </head>
   <body>
