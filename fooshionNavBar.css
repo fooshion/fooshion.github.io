@@ -1,8 +1,27 @@
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:200");
 body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.65);
+		color:black;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 	}
+	
+.upload{
+	background:white;
+	width:80%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border:4px double black;
+	border-radius:10px;
+	color:black;
+	margin-bottom:100px;
+}	
+
+textarea{
+	width:80%;
+	margin-bottom:50px;
+	resize:none;
+}
+
 	
 ul {
     list-style-type: none;
