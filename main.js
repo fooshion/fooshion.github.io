@@ -5,75 +5,82 @@
 */
 
 
+
+//Profile Array saves user input from create account section and then pushes that data into the accounts array which is then saved in localStorage
+
+
+
+	var profile	= [];
+
+	var U = document.getElementById("username").value;
+	var P = document.getElementById("password").value;
+	var E = document.getElementById("email").value;
+	
+//------------------------------------------------------------------
+
+//Function that checks the username index in profile array
+//function findIt() {
+	//indexOf(0) == username;	
+//}
+
+
+
 function go(){
-	/*
-	add username and password to database or check if correct
-	*/
+	
+	
+	
 	var username = document.getElementById("username");
 	var password = document.getElementById("password");
 	var email = document.getElementById("email");
+	
+	
 	var loginUser = document.getElementById("user");
 	var loginPass = document.getElementById("pass");
 	window.location.href = "profile.html";
 }
-
-(function($) {
-
-	skel.breakpoints({
-		xlarge:	'(max-width: 1680px)',
-		large:	'(max-width: 1280px)',
-		medium:	'(max-width: 980px)',
-		small:	'(max-width: 736px)',
-		xsmall:	'(max-width: 480px)'
-	});
-
-	$(function() {
-
-		var	$window = $(window),
-			$body = $('body'),
-			$header = $('#header'),
-			$footer = $('#footer');
-
-		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
-
-			$window.on('load', function() {
-				window.setTimeout(function() {
-					$body.removeClass('is-loading');
-				}, 100);
-			});
-
-		// Fix: Placeholder polyfill.
-			$('form').placeholder();
-
-		// Prioritize "important" elements on medium.
-			skel.on('+medium -medium', function() {
-				$.prioritize(
-					'.important\\28 medium\\29',
-					skel.breakpoint('medium').active
-				);
-			});
-
-		// Header.
-			$header.each( function() {
-
-				var t 		= jQuery(this),
-					button 	= t.find('.button');
-
-				button.click(function(e) {
-
-					t.toggleClass('hide');
-
-					if ( t.hasClass('preview') ) {
-						return true;
-					} else {
-						e.preventDefault();
-					}
-
-				});
-			});
+//----------------------------------------------------------------------
 
 
-	});
 
-})(jQuery);
+
+
+
+function create(){
+	profile.push(P);
+	profile.push(E);
+	localStorage.setItem(U, profile );
+	profile = [];	
+	}
+	
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
