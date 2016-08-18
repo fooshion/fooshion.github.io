@@ -11,11 +11,6 @@
 
 
 	var profile	= [];
-
-	var U = document.getElementById("username").value;
-	var P = document.getElementById("password").value;
-	var E = document.getElementById("email").value;
-	
 //------------------------------------------------------------------
 
 //Function that checks the username index in profile array
@@ -26,8 +21,6 @@
 
 
 function go(){
-	
-	
 	
 	var username = document.getElementById("username");
 	var password = document.getElementById("password");
@@ -46,6 +39,10 @@ function go(){
 
 
 function create(){
+	var U = document.getElementById("username").value;
+	var P = document.getElementById("password").value;
+	var E = document.getElementById("email").value;
+	
 	profile.push(P);
 	profile.push(E);
 	localStorage.setItem(U, profile );
