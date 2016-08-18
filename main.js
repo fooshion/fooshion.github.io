@@ -21,12 +21,6 @@
 
 
 function go(){
-	
-	var username = document.getElementById("username");
-	var password = document.getElementById("password");
-	var email = document.getElementById("email");
-	
-	
 	var loginUser = document.getElementById("user");
 	var loginPass = document.getElementById("pass");
 	window.location.href = "profile.html";
